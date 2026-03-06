@@ -8,7 +8,7 @@ O objetivo do projeto é treinar conceitos fundamentais de **estruturação de p
 
 ## 📸 Preview
 
-<img src="./preview.png" alt="Preview da página">
+<img src="img/preview.png" alt="Preview da página">
 
 ---
 
