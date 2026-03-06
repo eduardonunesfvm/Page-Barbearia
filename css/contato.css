@@ -1,3 +1,20 @@
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+body {
+  animation: fade 0.4s ease;
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -28,6 +45,11 @@ nav a {
     text-decoration: none; 
 }
 
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 nav {
     position: absolute;
     right: 0;
@@ -35,35 +57,14 @@ nav {
     
 }
 
-.produtos li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-}
-
-.produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
-}
-
-.produtos h2 {
-    font-size: 30px;
+.botao-contato{
+    float: left;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-transform: uppercase;
+    color: #000000;
     font-weight: bold;
-}
-
-.produto-descricao {
-    font-size: 18px;
-}
-
-.produto-preco {
     font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
+    text-decoration: none; 
 }
-
-
