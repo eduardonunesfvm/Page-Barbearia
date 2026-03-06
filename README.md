@@ -41,19 +41,22 @@ Este projeto está sendo desenvolvido com fins **educacionais**, com foco em:
 - Estilização com CSS
 - Posicionamento de elementos
 - Trabalhar com imagens e background
-- Construção de páginas estáticas
+- Integração do frontend no backend
+- Banco de Dados
 
 ---
 
-## 📂 Estrutura do projeto
-
+## 📁 Estrutura do Projeto
 
 Page-Barbearia
 │
-├── produtos.html
-├── produtos.css
-├── imagens do projeto
-└── README.md
+├── css/        # Arquivos de estilo do site
+│
+├── html/       # Páginas secundárias do site
+│
+├── img/        # Imagens utilizadas no projeto
+│
+└── README.md   # Documentação do projeto
 
 
 ---
